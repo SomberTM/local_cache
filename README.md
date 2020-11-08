@@ -27,7 +27,7 @@ cache.on('add', (key: string, person: Person, ttl?: number) => {
 cache.add('someUniqueID', {
     firstName: 'John',
     lastName: 'Doe'
-});
+}, 5000);
 ```
 
 # API
